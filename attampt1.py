@@ -25,7 +25,7 @@ for i in range(iterations):
   avg_cost = ( cost_A*A_driver + cost_B*B_driver ) / Total_drivers
   avg_cost_inf[i] = avg_cost
   
-  frac_A = A_driver/Total_driver
+  frac_A = A_driver/Total_drivers
   del_frac_A = learning_rate*frac_A*(avg_cost - cost_A)
   
   frac_A_upd = frac_A + del_frac_A
