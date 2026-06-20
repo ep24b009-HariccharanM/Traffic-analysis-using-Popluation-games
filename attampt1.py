@@ -9,7 +9,7 @@ learning_rate = 0.001
 
 # Inital conditions
 A_driver = 90/100*Total_drivers
-B_driver = Total_driver - A_driver
+B_driver = Total_drivers - A_driver
 
 avg_cost_inf = np.zeros(iterations)
 
